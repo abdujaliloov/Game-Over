@@ -394,16 +394,10 @@ nav {
 }
 
 @media (max-width: 375px){
+    .line{
+        display: none;
+    }
     
-    .line {
-        width: 8px;
-        height:60%;
-        left: 50%;
-        
-        top: 110%;
-        position: absolute;
-      } 
-
     .cta-title{
         font-size: 30px;
     }
